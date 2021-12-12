@@ -1,0 +1,14 @@
+.close{
+    background-color: aliceblue;
+}
+.close:hover{
+    background-color: red;
+}
+.soldModal{
+
+background-color: bisque;
+border: 2px solid grey ;
+padding: 20px;
+width: 50px;
+margin: 0 auto;
+}
