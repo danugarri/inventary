@@ -5,9 +5,9 @@ export const Stock = () => {
 
     return(
         <div>
-            <h1>Añadir producto</h1>
-            <h1>Modificar producto</h1>
-            <h1>Eliminar producto</h1>
+            <button>Añadir producto</button>
+            <button>Modificar producto</button>
+            <button>Eliminar producto</button>
             <a href= "./">Volver</a>
         </div>
     )
