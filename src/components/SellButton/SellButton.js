@@ -1,4 +1,5 @@
 import React ,{useState} from 'react';
+import { BrowserRouter as Router,NavLink, Link } from 'react-router-dom';
 import { SoldModal } from '../SoldModal/SoldModal';
 import './SellButton.css';
 
@@ -18,6 +19,7 @@ export const SellButton = ({children}) => {
             sold && !close &&
             <SoldModal close = {close} setClose = {setClose}/>
             }
+            
         </div>
     )
 }
