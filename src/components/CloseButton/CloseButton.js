@@ -1,16 +1,19 @@
 import React  from 'react';
-//import './SellButton.css';
+import './CloseButton.css';
 
 export const CloseButton = ({setClose}) => {
   
    
-    const closeModal = () =>setClose(true);
+    const closeModal = () => {
+        setClose(true);
+          document.body.style.backgroundColor= "white";
+    }
     
 
     return (
 
         <div>
-          <button onClick = {closeModal}>x</button>
+          <button className = "close" onClick = {closeModal}>x</button>
          
         </div>
     )

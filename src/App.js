@@ -1,12 +1,12 @@
 
 import './App.css';
-import { SellButton } from './components/SellButton/SellButton';
+
+import { Table } from './components/Table/Table';
 
 function App() {
   return (
     <>
-    <SellButton />
-    <SellButton className = "sellbutton"/>
+    <Table/>
     </>
   );
 }

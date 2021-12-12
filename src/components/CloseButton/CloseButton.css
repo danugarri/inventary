@@ -1,0 +1,7 @@
+.close{
+    background-color: aliceblue;
+}
+.close:hover{
+    background-color: red;
+   
+}

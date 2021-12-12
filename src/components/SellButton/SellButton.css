@@ -1,11 +1,7 @@
 #sell {
-   position:relative;
-   left: 200px;
-   margin:10px;
-}
-
-#sellContainer {
-    display: flex;
-    text-align: center;
-    
+    position:relative;
+    left: 200px;
+    margin:10px;
+    cursor: pointer;
+    z-index: 0;
 }
